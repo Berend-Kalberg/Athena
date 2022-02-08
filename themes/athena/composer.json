@@ -1,0 +1,25 @@
+{
+    "name": "berend-kalberg/berend-kalberg",
+    "description": "The theme for Athena",
+    "type": "silverstripe-theme",
+    "keywords": ["silverstripe", "theme"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Berend Kalberg"
+        }
+    ],
+    "require": {
+        "composer/installers": "*",
+        "silverstripe/framework": ">=3.5"
+    },
+	"extra": {
+		"branch-alias": {
+			"dev-master": "3.2.x-dev"
+		},
+        "expose": [
+            "dist",
+            "image"
+        ]
+	}
+}
